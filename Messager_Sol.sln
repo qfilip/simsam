@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messager.WebApi", "Messager.WebApi\Messager.WebApi.csproj", "{AFAE6636-CF11-441B-B21B-6548F57133BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messager.MqttBroker", "Messager.MqttBroker\Messager.MqttBroker.csproj", "{303CE8FF-027F-46FF-8BA2-8080347C802C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Messager.Shared", "Messager.Shared\Messager.Shared.csproj", "{5B0890A1-E69F-4F38-ACF6-A5A345462977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.IotDevice", "Messager.IotDevice\Messager.IotDevice.csproj", "{37F59E54-BB09-4983-8857-4405B9B35E28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFAE6636-CF11-441B-B21B-6548F57133BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFAE6636-CF11-441B-B21B-6548F57133BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFAE6636-CF11-441B-B21B-6548F57133BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFAE6636-CF11-441B-B21B-6548F57133BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303CE8FF-027F-46FF-8BA2-8080347C802C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303CE8FF-027F-46FF-8BA2-8080347C802C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303CE8FF-027F-46FF-8BA2-8080347C802C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303CE8FF-027F-46FF-8BA2-8080347C802C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0890A1-E69F-4F38-ACF6-A5A345462977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0890A1-E69F-4F38-ACF6-A5A345462977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0890A1-E69F-4F38-ACF6-A5A345462977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0890A1-E69F-4F38-ACF6-A5A345462977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F59E54-BB09-4983-8857-4405B9B35E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F59E54-BB09-4983-8857-4405B9B35E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F59E54-BB09-4983-8857-4405B9B35E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F59E54-BB09-4983-8857-4405B9B35E28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {968DEAE4-2D88-4C16-B5F1-C30170115DD5}
+	EndGlobalSection
+EndGlobal
