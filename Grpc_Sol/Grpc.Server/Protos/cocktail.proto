@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc.Server";
+
+package cocktail;
+
+service Cocktail {
+  // Sends a greeting
+  rpc GetAll (GetByNameRequest) returns (CocktailDto);
+}
+
+// The request message containing the user's name.
+message GetByNameRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message CocktailDto {
+  string name = 1;
+  repeated string ingredients = 2;
+}
